@@ -7,7 +7,7 @@ var playerScore : int;
 
 function Update(){
   //transform.Rotate(Vector3(0,1,0) * 2);
-   collectibleText.text = playerScore.ToString("0");
+   collectibleText.text = playerScore.ToString("");
   }
   
 
